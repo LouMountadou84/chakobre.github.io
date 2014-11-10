@@ -6,13 +6,33 @@ body {
 	background-attachment: fixed;
 }
 
- .main {
+ .aboutme {
  	background: rgba(255,255,255,0.8);
- 	width: 800px;
+ 	width: 100%;
  	margin: 0 auto;
  	border-radius: 10px;
  	padding: 40px;
     box-shadow: 2px 0 5px 5px white;
+    margin-top: 80px;
+    margin-bottom: 200px;
+ }
+ .language {
+    background: rgba(255,255,255,0.8);
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 2px 0 5px 5px white;
+    margin-bottom: 200px;
+ }
+ .meontheweb {
+    background: rgba(255,255,255,0.8);
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 2px 0 5px 5px white;
+    margin-bottom: 100px;
  }
 
 h1 {
@@ -34,6 +54,7 @@ h2 {
 h3{
     margin-top: 0;
     font-size: 24px;
+    text-align: center;
 }
 h3.first {
     font-size: 24px;
@@ -43,6 +64,16 @@ h3.first {
     background-color: #F09684;
     width: 100%;
     margin-top: 80px;
+}
+.text {
+    width: 700px;
+    margin: 0 auto;
+}
+.list {
+   text-align: center;
+}
+.link {
+    text-align: center;
 }
 img {
      width: 200px;
