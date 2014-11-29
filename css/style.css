@@ -1,11 +1,21 @@
 body {
 	font-family: Helvetica, Arial, sans-serif;
-	background-image: url(../images/FreeGreatPicture.com-20247-candy-painted-background.jpg);
-	background-size: cover;
+	/*background-image: url(../images/FreeGreatPicture.com-20247-candy-painted-background.jpg);*/
+	background-image: url(../images/IMG_0834.JPG);
+    background-size: cover;
 	background-position: 50% 50%;
 	background-attachment: fixed;
 }
-
+ .header {
+    height: 100px;
+    background: #CCD1C5;
+    border: 1px solid #CCC;
+    box-shadow: 2px 0 5px 5px white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+ }
  .aboutme {
  	background: rgba(255,255,255,0.8);
  	width: 100%;
@@ -39,39 +49,47 @@ body {
    height: 90%;  
  }
  .shot {
-    width: 350px;
-    height: 350px;
+    width: 395px;
+    height: 395px;
     float: left;
-    margin-left: 40px;
-    border-radius: 10px;
-    border: 10px solid #F0D50C;
+    margin-left: 0px;
+    border-radius: 5px;
+    border: 5px solid black;
  }
- .meontheweb {
-    background: rgba(255,255,255,0.8);
-    width: 100%;
-    height: 250px;
-    margin: 0 auto;
-    border-radius: 10px;
-    padding: 40px;
-    box-shadow: 2px 0 5px 5px white;
-    margin-bottom: 100px;
+ 
+ #footer {
+    background: #CCD1C5;
+    width: 107%;
+    position: relative;
+    margin-left: 0px;
+    right: 0px;
+    height: 130px;
+    padding-top: 20px;
+    margin-bottom: 0px;
  }
+#div {
+   background-color: #C2E693;
+   /*width: 100%;*/
+   margin-top: 0;
 
+}
 h1 {
-    color: #F5350F;
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 0;
-    text-shadow: 5px 5px 7px black;
+    text-shadow: 2px 2px #B5B5B0;
+    color: #F4F5EB;
+    font-size: 40px;
+    position: relative;
     font-family: 'Changa One', cursive;
 }
-
+#baloons {
+    width: 105%;
+    height: 1000px;
+}
 h2 {
-	text-transform: uppercase;
-	letter-spacing: 5px;
+	letter-spacing: 2px;
 	font-weight: normal;
 	text-align: center;
-	margin-top: 0;
+	margin-top: 10px;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 h3{
     margin-top: 0;
@@ -114,11 +132,13 @@ h3.first {
     position: center;  
 }
 .face {
-     width: 200px;
-     display: block;
-     margin: 0 auto;
-     border-radius: 100px;
-     border: 10px solid #F5350F;
+     width: 100px;
+     float: left;
+     margin-top: 5px;
+     margin-left: 10px;
+     margin-right: 10px;
+     border-radius: 5px;
+     border: 3px solid white;
     }
     ul,
     ol{
