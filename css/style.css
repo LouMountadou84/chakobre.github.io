@@ -72,9 +72,10 @@ body {
     margin-bottom: 0px;
  }
 #div {
-   background-color: #C2E693;
-   /*width: 100%;*/
+   background-color: #80AD98;
+   width: 100%;
    margin-top: 0;
+
 
 }
 h1 {
@@ -95,18 +96,28 @@ h2 {
 	margin-top: 10px;
     font-family: 'Gloria Hallelujah', cursive;
 }
-h3{
+.h3{
     margin-top: 0;
     font-size: 24px;
-    text-align: center;
+    margin-left: 600px;
     color: #ED926B;
 }
-h3.first {
-    font-size: 24px;
+.link {
+    float: right;
+    background: white;
+    padding: 10px;
+    margin-right: 50px;
+    text-decoration: none;
 }
+.link a {
+    color: #80AD98;
+}
+/*h3.first {
+    font-size: 24px;
+}*/
 /*This resizes and centres the image */
 .div {
-    background-color: #C2E693;
+    background-color: #80AD98;
     width: 100%;
     margin-top: 80px;
 }
