@@ -8,6 +8,7 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	/*background-image: url(../images/FreeGreatPicture.com-20247-candy-painted-background.jpg);*/
 	background-image: url(../images/IMG_0834.JPG);
+    /*background-image: url(../images/クリスマスマーケット.jpg);*/
     background-size: cover;
 	background-position: 50% 50%;
 	background-attachment: fixed;
@@ -71,7 +72,7 @@ body {
  
  #footer {
     background: #CCD1C5;
-    width: 1400px;
+    width: 110%;
     position: relative;
     margin-left: 0px;
     right: 0px;
