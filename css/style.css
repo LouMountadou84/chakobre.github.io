@@ -23,6 +23,12 @@ body {
     left: 0px;
     width: 100%;
  }
+ .anchor {
+    display: block;
+    height: 100px;
+    margin-top: -100px;
+    visibility: hidden;
+ }
  .aboutme {
  	background: rgba(255,255,255,0.8);
  	width: 1400px;
@@ -111,8 +117,11 @@ h3{
     margin-top: 0;
     font-size: 24px;
     text-align: center;
-    /*margin-left: 600px;*/
+   
     color: #ED926B;
+}
+#me {
+    margin-left: -0%;
 }
 .link {
     float: right;
