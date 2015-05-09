@@ -29,7 +29,7 @@ body {
     margin-top: -100px;
     visibility: hidden;
  }
- .aboutme {
+ .aboutpuppies {
  	background: rgba(255,255,255,0.8);
  	width: 1400px;
  	margin: 0 auto;
@@ -41,7 +41,7 @@ body {
     margin-top: 80px;
     margin-bottom: 200px;
  }
- .language {
+ .whattheydo {
     background: rgba(255,255,255,0.8);
     width: 1400px;
     margin: 0 auto;
@@ -52,7 +52,7 @@ body {
     box-shadow: 2px 0 5px 5px white;
     margin-bottom: 200px;
  }
- .project {
+ .pictures {
     background: rgba(255,255,255,0.8);
     width: 1400px;
     margin: 0 auto;
